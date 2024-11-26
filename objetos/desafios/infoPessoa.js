@@ -82,17 +82,15 @@ c) Chame a função mostrarListaPessoas para verificar se as informações, incl
 d) Crie uma função chamada filtrarPorCidade que aceita a lista pessoas e uma string cidade como parâmetros. A função deve retornar uma nova lista contendo apenas as pessoas que residem na cidade fornecida.
 */
 const propriedadesListaPessoas = ['nome', 'idade', 'cidade'];
-const pessoa1 = createObj(propriedadesListaPessoas, ['Neto', 28, 'São Paulo']);
-const pessoa2 = createObj(propriedadesListaPessoas, ['Carla', 25, 'Diadema']);
-const pessoa3 = createObj(propriedadesListaPessoas, ['José', 32, 'São Paulo']);
-const pessoas = [pessoa1, pessoa2, pessoa3];
+const pessoas = [   createObj(propriedadesListaPessoas, ['Neto', 28, 'São Paulo']), 
+                    createObj(propriedadesListaPessoas, ['Carla', 25, 'Diadema']), 
+                    createObj(propriedadesListaPessoas, ['José', 32, 'São Paulo'])
+                ];
 
 const mostraListaPessoas = (listaPessoas) => {
-    for (const pessoa of listaPessoas) {
-        let texto = `${pessoa.nome}, tem ${pessoa.idade} anos e mora na cidade de ${pessoa.cidade}`
-        console.log(texto);
-    }
-    console.log();
+    listaPessoas.forEach(pessoa => {
+        console.log(`Nome: ${pessoa.nome}, Idade: ${pessoa.idade}, Cidade: ${pessoa.cidade}`);       
+    });
 }
 
 mostraListaPessoas(pessoas);
@@ -105,6 +103,10 @@ if (pessoas.some(p => p.nome === pessoa4.nome)){
 }
 mostraListaPessoas(pessoas);
 
-const filtraPorCidade = (listaPessoas) => {
-
+const filtraPorCidade = (listaPessoas, cidade) => {
+    return listaPessoas.filter(pessoa => pessoa.cidade === cidade);
 }
+
+console.log(filtraPorCidade(pessoas, 'Diadema'));
+console.log();
+console.log(filtraPorCidade(pessoas, 'São Paulo'));
