@@ -88,6 +88,8 @@ const carroNovo = {
     cor: 'Cinza'
 }
 
+console.log(carroNovo);
+
 const carroComNovosDetalhes = {...carro, ...carroNovo};
 
 console.log(carroComNovosDetalhes);
