@@ -1,0 +1,22 @@
+[
+    { "id": 1, "titulo": "Matrix", "diretor": "Lana Wachowski", "anoLancamento": 1999 },
+    { "id": 2, "titulo": "Jurassic Park", "diretor": "Steven Spielberg", "anoLancamento": 1993 },
+    { "id": 3, "titulo": "Inception", "diretor": "Christopher Nolan", "anoLancamento": 2010 },
+    { "id": 4, "titulo": "The Dark Knight", "diretor": "Christopher Nolan", "anoLancamento": 2008 },
+    { "id": 5, "titulo": "Pulp Fiction", "diretor": "Quentin Tarantino", "anoLancamento": 1994 },
+    { "id": 6, "titulo": "Forrest Gump", "diretor": "Robert Zemeckis", "anoLancamento": 1994 },
+    { "id": 7, "titulo": "Fight Club", "diretor": "David Fincher", "anoLancamento": 1999 },
+    { "id": 8, "titulo": "The Shawshank Redemption", "diretor": "Frank Darabont", "anoLancamento": 1994 },
+    { "id": 9, "titulo": "The Lord of the Rings: The Fellowship of the Ring", "diretor": "Peter Jackson", "anoLancamento": 2001 },
+    { "id": 10, "titulo": "Star Wars: Episode IV - A New Hope", "diretor": "George Lucas", "anoLancamento": 1977 },
+    { "id": 11, "titulo": "Back to the Future", "diretor": "Robert Zemeckis", "anoLancamento": 1985 },
+    { "id": 12, "titulo": "The Godfather", "diretor": "Francis Ford Coppola", "anoLancamento": 1972 },
+    { "id": 13, "titulo": "Gladiator", "diretor": "Ridley Scott", "anoLancamento": 2000 },
+    { "id": 14, "titulo": "Titanic", "diretor": "James Cameron", "anoLancamento": 1997 },
+    { "id": 15, "titulo": "The Matrix Reloaded", "diretor": "Lana Wachowski", "anoLancamento": 2003 },
+    { "id": 16, "titulo": "Avatar", "diretor": "James Cameron", "anoLancamento": 2009 },
+    { "id": 17, "titulo": "The Avengers", "diretor": "Joss Whedon", "anoLancamento": 2012 },
+    { "id": 18, "titulo": "Schindler's List", "diretor": "Steven Spielberg", "anoLancamento": 1993 },
+    { "id": 19, "titulo": "Braveheart", "diretor": "Mel Gibson", "anoLancamento": 1995 },
+    { "id": 20, "titulo": "Interstellar", "diretor": "Christopher Nolan", "anoLancamento": 2014 }
+]
